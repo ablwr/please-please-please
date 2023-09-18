@@ -10,7 +10,7 @@ function makePlease() {
   setTimeout(function () {
     newPlease.remove();
     // clean up neglected begging
-  }, 10000);
+  }, 15000);
 }
 
 function startCrying() {
@@ -21,10 +21,11 @@ let i = 0;
 let pleasePleasePlease = setInterval(() => {
   i += 1;
   startCrying();
-  if (i > 88) {
+  if (document.getElementsByClassName("please").length > 88) {
+    // just in case, but it should not reach this point
     clearInterval(pleasePleasePlease);
   }
-}, 800);
+}, 500);
 
 function remove(e) {
   var element = e;
