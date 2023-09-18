@@ -1,0 +1,91 @@
+body {
+    min-height: 100vh;
+    color: plum;
+    font-family: monospace;
+    background-color: #C1FFFB;
+    background: linear-gradient(to top, rgb(162, 217, 236) 0%, rgb(189, 232, 245) 40%, rgb(181, 235, 253) 100%);
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+a {
+    color: gainsboro;
+}
+
+a:visited {
+    color: gainsboro;
+}
+
+main {
+    font-size: 1.5em;
+    margin: 0.2em;
+    width: 100vw;
+    height: 88vh;
+}
+
+.please {
+    background-color: seashell;
+    color: plum;
+    padding: 0.56789em;
+    border-radius: 1em;
+    animation: floatIn 2s forwards;
+    height: 1em;
+    width: 3.888em;
+    text-align: center;
+    position: fixed;
+    top: 50vh;
+    left: 50vw;
+}
+
+.clicked {
+    animation: popOut 1s forwards;
+}
+
+.please:before {
+    content: 'please';
+}
+
+header {
+    text-align: center;
+}
+
+footer {
+    border-top: 1px solid gainsboro;
+    color: gainsboro;
+    text-align: center;
+    padding-top: 2em;
+}
+
+h1 {
+    animation: byebyebye 21s forwards;
+}
+
+@keyframes byebyebye {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes floatIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes popOut {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
