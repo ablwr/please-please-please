@@ -62,7 +62,7 @@ footer {
 }
 
 h1 {
-    animation: byebyebye 21s forwards;
+    animation: byebyebye 28s forwards;
 }
 
 @keyframes byebyebye {
@@ -70,7 +70,8 @@ h1 {
         opacity: 1;
     }
     100% {
-        opacity: 0;
+        opacity: 0.2;
+        color: gainsboro;
     }
 }
 
