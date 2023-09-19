@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
 body {
     min-height: 100vh;
     color: plum;
@@ -28,15 +29,16 @@ main {
 }
 
 .please {
-    font-family: cursive;
+    font-family: "Dancing Script", cursive;
     background-color: LavenderBlush;
     color: plum;
-    padding: 0.56789em;
+    padding: 0.5em;
     border-radius: 1em;
     border: 1px dotted gainsboro;
-    animation: floatIn 2s forwards;
+    animation: floatIn 1.75s forwards;
     height: 1em;
-    width: 3.888em;
+    width: 3.2em;
+    line-height: 0.95em;
     text-align: center;
     position: fixed;
     top: 50vh;
