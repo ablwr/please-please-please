@@ -13,11 +13,11 @@ body {
 }
 
 a {
-    color: gainsboro;
+    color: dimgray;
 }
 
 a:visited {
-    color: gainsboro;
+    color: dimgray;
 }
 
 main {
@@ -58,7 +58,7 @@ header {
 
 footer {
     border-top: 1px solid gainsboro;
-    color: gainsboro;
+    color: dimgray;
     text-align: center;
     padding-top: 2em;
     padding-bottom: 2em;
