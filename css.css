@@ -9,6 +9,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0;
+    cursor: url('cloud.gif'), auto;
 }
 
 a {
@@ -38,6 +39,7 @@ main {
     position: fixed;
     top: 50vh;
     left: 50vw;
+    cursor: url('teardrop.gif'), auto;
 }
 
 .clicked {
