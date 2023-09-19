@@ -3,7 +3,7 @@ body {
     color: plum;
     font-family: monospace;
     background-color: #C1FFFB;
-    background: linear-gradient(to top, rgb(162, 217, 236) 0%, rgb(189, 232, 245) 40%, rgb(181, 235, 253) 100%);
+    background: linear-gradient(to top, rgb(162, 217, 236) 0%, rgb(195, 232, 243) 40%, rgb(181, 235, 253) 100%);
     background-attachment: fixed;
     background-position: center center;
     background-repeat: no-repeat;
@@ -24,14 +24,16 @@ main {
     font-size: 1.5em;
     margin: 0.2em;
     width: 100vw;
-    height: 88vh;
+    height: 75vh;
 }
 
 .please {
-    background-color: seashell;
+    font-family: cursive;
+    background-color: LavenderBlush;
     color: plum;
     padding: 0.56789em;
     border-radius: 1em;
+    border: 1px dotted gainsboro;
     animation: floatIn 2s forwards;
     height: 1em;
     width: 3.888em;
@@ -59,10 +61,12 @@ footer {
     color: gainsboro;
     text-align: center;
     padding-top: 2em;
+    padding-bottom: 2em;
 }
 
 h1 {
-    animation: byebyebye 28s forwards;
+    font-size: 8em;
+    animation: byebyebye 26s forwards;
 }
 
 @keyframes byebyebye {
@@ -70,7 +74,7 @@ h1 {
         opacity: 1;
     }
     100% {
-        opacity: 0.2;
+        opacity: 0.3;
         color: gainsboro;
     }
 }
